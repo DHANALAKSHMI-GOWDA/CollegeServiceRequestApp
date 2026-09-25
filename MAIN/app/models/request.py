@@ -23,8 +23,6 @@
 #   }
 
 from enum import Enum
-
-
 class RequestStatus(str, Enum):
     NEW = "new"
     ASSIGNED = "assigned"
